@@ -89,7 +89,6 @@ export class TrelloButton extends Component {
     const newListwidth = list ? "500px" : "300px";
 
     const addButtontext = list ? "Add List" : "Add Card";
-
     const buttonbgColor = list ? "rgba(0,0,0,.15)" : "white";
 
     const StyledTextArea = styled.input`
